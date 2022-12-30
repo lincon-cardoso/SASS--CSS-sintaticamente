@@ -1,4 +1,31 @@
 body {
-  margin: 53;
+  margin: 0;
   padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .esquerda {
+  width: 50%;
+  background-color: #9145B6;
+}
+.container .esquerda .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
+  color: #4C3F91;
+}
+.container .direita {
+  width: 50%;
+  background-color: #4C3F91;
+}
+.container .direita .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
+  color: #9145B6;
 }/*# sourceMappingURL=index.css.map */
