@@ -1,0 +1,12 @@
+html,body {
+    font-family: 'Roboto',sans-serif;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    @include reset();
+}
