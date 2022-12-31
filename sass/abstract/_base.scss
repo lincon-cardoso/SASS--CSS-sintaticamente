@@ -1,12 +1,10 @@
-html,body {
-    font-family: 'Roboto',sans-serif;
-}
+@import './variaveis';
 
-@mixin reset {
-    margin: 0;
-    padding: 0;
+html,body {
+    font-size: $fonte;;
 }
 
 *{
-    @include reset();
+    margin: 0;
+    padding: 0;
 }
